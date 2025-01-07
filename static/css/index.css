@@ -1,0 +1,175 @@
+@import url('https://fonts.cdnfonts.com/css/video');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'video';
+}
+
+
+
+header, footer{
+    background-image: url("../images/fondo-header-footer.jpg");
+    text-align: center;
+    align-content: center;
+}
+header{
+    width: 100%;
+    height: 100px;
+    color: white;
+    position: relative;
+}
+.button-iluminacion{
+    background-image: url("../images/button-iluminacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+
+.inicio{
+    background-image: url("../images/fondo-pacman.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "lado-izquierdo medio lado-derecho";
+}
+
+
+
+.medio{
+    width: 300px;
+    height: 300px;
+    grid-area: medio;
+    text-align: center;
+}
+.texto{
+    color: white;
+    text-align: center;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+}
+.button-videojuegos button{
+    width: 200px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 1px;
+    background-color: #E7120D;
+    font-family: 'video';
+}
+.button-ordenadores button{
+    width: 120px;
+    color: black;
+    text-align: center;
+    margin: 30px;
+    padding: 1px;
+    background-color: #3FBEEC;
+    font-family: 'video';
+}
+
+
+
+.lado-izquierdo{
+    display: grid;
+    grid-template-areas: 
+    "kirby . ."
+    ". mundoMario ."
+    "donkeyKong mario .";
+    grid-area: lado-izquierdo;
+}
+.kirby{
+    background-image: url("../images/kirby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: solid #00ACD2;
+    grid-area: kirby;
+}
+.mundoMario{
+    background-image: url("../images/mundoMario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    border: solid #00ACD2;
+    grid-area: mundoMario;
+}
+.donkeyKong{
+    background-image: url("../images/donkeyKong.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: solid #00ACD2;
+    grid-area: donkeyKong;
+}
+.mario{
+    background-image: url("../images/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    border: solid #00ACD2;
+    grid-area: mario;
+}
+
+
+
+.lado-derecho{
+    display: grid;
+    grid-template-areas: 
+    ". . "
+    ". autos "
+    "pelea . "
+    ". .";
+    grid-area: lado-derecho;
+}
+.autos{
+    background-image: url("../images/auto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    border: solid #00ACD2;
+    grid-area: autos;
+}
+.pelea{
+    background-image: url("../images/pelea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    border: solid #00ACD2;
+    grid-area: pelea;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    color: white;
+}

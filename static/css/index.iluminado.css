@@ -1,0 +1,198 @@
+@import url('https://fonts.cdnfonts.com/css/video');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'video';
+}
+
+
+
+header{
+    background-image: url("../images/fondo-header-footer-iluminado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    color: black;
+    transform: rotate(180deg);
+    position: relative;
+}
+header h1{
+    background-color: white;
+    transform: rotate(180deg);
+}
+.button-iluminacion{
+    background-image: url("../images/button-oscuro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+
+
+.inicio{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas: 
+    "lado-izquierdo medio lado-derecho";
+}
+
+
+
+.medio{
+    width: 300px;
+    height: 300px;
+    grid-area: medio;
+    text-align: center;
+}
+.texto{
+    color: black;
+    text-align: center;}
+div{
+    margin: 10px;
+    padding: 10px;
+}
+.button-videojuegos button{
+    width: 200px;
+    color: black;
+    text-align: center;
+    margin: 20px;
+    padding: 1px;
+    background-color: #E7120D;
+    font-family: 'video';
+}
+.button-ordenadores button{
+    width: 120px;
+    color: black;
+    text-align: center;
+    margin: 30px;
+    padding: 1px;
+    background-color: #3FBEEC;
+    font-family: 'video';
+}
+
+
+
+.lado-izquierdo{
+    display: grid;
+    grid-template-areas: 
+    "kirby . ."
+    ". mundoMario ."
+    "donkeyKong mario .";
+    grid-area: lado-izquierdo;
+}
+.kirby{
+    background-image: url("../images/kirby.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    height: 100px;
+    border: solid #FFBC15;
+    grid-area: kirby;
+}
+.mundoMario{
+    background-image: url("../images/mundoMario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 100px;
+    border: solid #FFBC15;
+    grid-area: mundoMario;
+}
+.donkeyKong{
+    background-image: url("../images/donkeyKong.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+    border: solid #FFBC15;
+    grid-area: donkeyKong;
+}
+.mario{
+    background-image: url("../images/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 25px;
+    padding: 25px;
+    width: 100px;
+    height: 100px;
+    border: solid #FFBC15;
+    grid-area: mario;
+}
+
+
+
+.lado-derecho{
+    display: grid;
+    grid-template-areas: 
+    ". . "
+    ". autos "
+    "pelea . "
+    ". pacman";
+    grid-area: lado-derecho;
+}
+.autos{
+    background-image: url("../images/auto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    border: solid #FFBC15;
+    grid-area: autos;
+}
+.pelea{
+    background-image: url("../images/pelea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+    border: solid #FFBC15;
+    grid-area: pelea;
+}
+.pacman{
+    background-image: url("../images/pacman-fondo-blanco.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    height: 100px;
+    grid-area: pacman;
+}
+
+
+
+footer{
+    background-image: url("../images/fondo-header-footer-iluminado.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    color: black;
+}
+footer h2{
+    background-color: white;
+}
