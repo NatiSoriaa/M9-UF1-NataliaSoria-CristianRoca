@@ -70,6 +70,7 @@ div{
     padding: 1px;
     background-color: #E7120D;
     font-family: 'video';
+    cursor: pointer;
 }
 .button-ordenadores button{
     width: 120px;
@@ -79,6 +80,7 @@ div{
     padding: 1px;
     background-color: #3FBEEC;
     font-family: 'video';
+    cursor: pointer;
 }
 
 

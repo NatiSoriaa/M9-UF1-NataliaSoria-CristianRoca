@@ -98,8 +98,21 @@ nav .inicio {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
-    border-radius: 10px;
     width: 22%;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+    overflow: hidden;
+    position: relative;
+}
+
+.juego:hover {
+    transform: translateY(-10px);
+    background-color: #1e90ff;
+}
+
+.juego a {
+    display: inline-block;
+    text-decoration: none;
 }
 
 .juego img {
@@ -107,12 +120,11 @@ nav .inicio {
     height: 100px;
     border-radius: 5px;
     object-fit: cover;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .juego p {
-    font-size: 0.9rem;
-    margin-top: 10px;
+    margin: 20px;
 }
 
 footer{
